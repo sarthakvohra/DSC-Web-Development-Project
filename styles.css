@@ -39,6 +39,15 @@ nav a:hover {
   min-width: 15vw;
   z-index: -1;
 }
+#controller {
+  position: absolute;
+  top: 0;
+  left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%)
+
+  z-index: -1;
+}
 main h1 {
   color: #faff00;
   font-size: 4em;
